@@ -21,3 +21,8 @@ rules:
   steps:
   - intent: To_Charging_Station 
   - action: Action_To_Charging_Station
+
+- rule: How Long To Charge Car
+  steps:
+  - intent: How_Long_To_Charge
+  - action: Action_How_Long_To_Charge

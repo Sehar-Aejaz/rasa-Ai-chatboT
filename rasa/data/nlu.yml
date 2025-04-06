@@ -120,5 +120,12 @@ nlu:
     - doveton
     - ringwood
 
+- intent: How_Long_To_Charge
+  examples: |
+    - how long would it take to charge an electric vehicles?
+    - what is the average time to charge my car?
+    - what is the average time to charge an electric vehicle?
+    - how long will it take to charge my car?
+
 
 

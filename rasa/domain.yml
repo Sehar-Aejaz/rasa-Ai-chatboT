@@ -10,6 +10,7 @@ intents:
   - bot_challenge
   - Nearest_Charging_Station
   - To_Charging_Station
+  - How_Long_To_Charge
 
 
 entities: 
@@ -45,6 +46,7 @@ responses:
 actions:
   - Action_Get_Nearest_Station
   - Action_To_Charging_Station
+  - Action_How_Long_To_Charge
 
 session_config:
   session_expiration_time: 60

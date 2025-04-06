@@ -67,3 +67,23 @@ class ActionToStation(Action):
             dispatcher.utter_message(text="i did not extract a location")
         
         return []
+    
+
+       
+    
+    
+
+
+
+class ActionToStation(Action):
+
+    def name(self) -> Text:
+        return "Action_How_Long_To_Charge" 
+    
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text="It takes 20hr on slow, 12hr on 7kw fast, 7hr on 22kw fast, 1 hr on 43-50kw rapid, 30min on 150kw charge")
+        
+        
+        return []

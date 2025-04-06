@@ -39,3 +39,10 @@ stories:
   steps: 
     - intent: ask_To_Station
     - action: Action_To_Charging_Station
+
+- story: How_Long_To_Charge
+  steps: 
+    - intent: Ask_How_Long_To_Charge
+    - action: Action_How_Long_To_Charge
+
+
