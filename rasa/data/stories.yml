@@ -45,4 +45,10 @@ stories:
     - intent: Ask_How_Long_To_Charge
     - action: Action_How_Long_To_Charge
 
+- story: Distence_I_Can_Go
+  steps: 
+    - intent: Distence_I_Can_Go
+    - action: Action_Distence_I_Can_Go
+
+
 

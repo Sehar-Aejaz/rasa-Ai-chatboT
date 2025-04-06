@@ -26,3 +26,8 @@ rules:
   steps:
   - intent: How_Long_To_Charge
   - action: Action_How_Long_To_Charge
+
+- rule: distence car can travel
+  steps:
+  - intent: Distence_I_Can_Go
+  - action: Action_Distence_I_Can_Go

@@ -87,3 +87,16 @@ class ActionToStation(Action):
         
         
         return []
+    
+class ActionToStation(Action):
+
+    def name(self) -> Text:
+        return "Action_Distence_I_Can_Go" 
+    
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text="depending on your car and driving style. you can expect between. 320 to 480km on a full charge")
+        
+        
+        return []

@@ -127,5 +127,12 @@ nlu:
     - what is the average time to charge an electric vehicle?
     - how long will it take to charge my car?
 
+- intent: Distence_I_Can_Go
+  examples: |
+    - how long will i travel on a full charge
+    - whats the travel distence on an electric vehicle
+    - what is the expected distence this car will go 
+    - what is the expected travel distence i can go in my electric vehicle
+
 
 
